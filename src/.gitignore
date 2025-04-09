@@ -1,0 +1,14 @@
+# Ignore pyinstaller build and dist folders
+dist/
+build/
+*.spec
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore the .exe file
+*.exe
+
+# Ignore icon files (optional, if you don't want to track the icon file)
+*.ico
